@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export const PaintingPage = (props: any) => {
+export const PaintingPage = () => {
 
     const classes = useStyles();
 
