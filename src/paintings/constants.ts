@@ -1,0 +1,2 @@
+export const HARVARD_API_URL = (page: number) => 
+`https://api.harvardartmuseums.org/object?classification=Prints&hasimage=1&sortorder=desc&apikey=c28e4be0-4c0e-11ea-90d6-25d9a9fe80fc&size=10&page=${page}`
