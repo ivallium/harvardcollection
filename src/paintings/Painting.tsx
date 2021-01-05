@@ -13,7 +13,7 @@ import { PaintingProps } from "./types";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 800,
+    maxWidth: 800, minWidth: 500,
   },
 });
 
@@ -26,7 +26,7 @@ export const Painting = (props: PaintingProps) => {
                 <CardMedia
                     component="img"
                     height="400"
-                    image={props.painting.primaryimageurl ? props.painting.primaryimageurl : "https://via.placeholder.com/200x300.png?text=No+Image"}
+                    image={props.painting.primaryimageurl ? props.painting.primaryimageurl : "https://via.placeholder.com/400x500.png?text=No+Image"}
                     title={props.painting.title}
                 />
                 <CardContent>
