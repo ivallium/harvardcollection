@@ -26,7 +26,7 @@ export const Painting = (props: PaintingProps) => {
                 <CardMedia
                     component="img"
                     height="400"
-                    image={props.painting.primaryimageurl}
+                    image={props.painting.primaryimageurl ? props.painting.primaryimageurl : "https://via.placeholder.com/200x300.png?text=No+Image"}
                     title={props.painting.title}
                 />
                 <CardContent>
